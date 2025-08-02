@@ -1,0 +1,20 @@
+{
+  "intern": {
+    "name": "Akhil Sharma",
+    "referralCode": "akhil2025",
+    "donationsRaised": 2450,
+    "rewards": ["T-shirt", "Certificate", "LinkedIn Shoutout"]
+  },
+  "leaderboard": [
+    { "name": "Anjali Mehra", "code": "anjali2025", "donations": 3200 },
+    { "name": "Akhil Sharma", "code": "akhil2025", "donations": 2450 },
+    { "name": "Riya Jain", "code": "riya2025", "donations": 2100 },
+    { "name": "Sahil Kapoor", "code": "sahil2025", "donations": 1980 },
+    { "name": "Pooja Verma", "code": "pooja2025", "donations": 1850 },
+    { "name": "Nikhil Singh", "code": "nikhil2025", "donations": 1700 },
+    { "name": "Meena Gupta", "code": "meena2025", "donations": 1600 },
+    { "name": "Karan Joshi", "code": "karan2025", "donations": 1500 },
+    { "name": "Sneha Patil", "code": "sneha2025", "donations": 1420 },
+    { "name": "Vikram Rao", "code": "vikram2025", "donations": 1350 }
+  ]
+} 

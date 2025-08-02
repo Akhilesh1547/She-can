@@ -1,38 +1,80 @@
-.App {
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  padding: 12px;
+  width: 80%;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button, .btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #e91e63;
   color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover, .btn:hover {
+  background-color: #d81b60;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.animated-list li {
+  animation: fadeIn 0.4s ease-in forwards;
+  margin: 0.3rem 0;
+  opacity: 0;
+}
+
+.animated-list li:nth-child(1) { animation-delay: 0.1s; }
+.animated-list li:nth-child(2) { animation-delay: 0.2s; }
+.animated-list li:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes fadeIn {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.donation-amount {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #ffe0f0;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 6px;
 }
